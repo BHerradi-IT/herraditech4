@@ -16,7 +16,6 @@
     --border-color: #e0e0e0;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --shadow-hover: 0 8px 12px rgba(0, 0, 0, 0.15);
-    --service-card-bg: #f0f0f0; /* Light gray for service card background */
 }
 
 body {
@@ -189,7 +188,7 @@ body {
 }
 
 .service-card {
-    background-color: var(--service-card-bg); /* Light gray background for service cards */
+    background-color: var(--primary-color); /* Green background for service cards */
     padding: 2rem;
     border-radius: 15px;
     box-shadow: var(--shadow);
@@ -211,7 +210,7 @@ body {
 }
 
 .service-card h3 {
-    color: var(--primary-color); /* Green text for service card titles */
+    color: #ffffff; /* White text for service card titles */
     font-size: 1.3rem;
     margin-top: 1rem;
     font-weight: 700;
@@ -224,7 +223,7 @@ body {
 .service-icon {
     font-size: 3rem;
     margin-bottom: 0.5rem;
-    color: var(--primary-color); /* Green icon color */
+    color: #ffffff; /* White icon color */
 }
 
 .service-card:hover .service-icon {
@@ -235,18 +234,13 @@ body {
     max-width: 100px; /* Adjust logo size */
     height: auto;
     margin-bottom: 0.5rem;
-    /* background-color: #ffffff; White background for logos */
+    background-color: #ffffff; /* White background for logos */
     padding: 10px;
     border-radius: 10px;
 }
 
-.cnss-logo {
-    max-width: 80px; /* Adjust CNSS logo size to match others */
-    height: auto;
-}
-
 .service-card:hover .service-logo {
-    /* background-color: var(--primary-lighter); Lighter green background on hover */
+    background-color: var(--primary-lighter); /* Lighter green background on hover */
 }
 
 /* About Section */
